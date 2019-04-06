@@ -2,8 +2,9 @@
 1->Counter(any list)
 2->c.most_common(para)
 3->c.clear()
-4->c.itms()
+4->c.itms(),
 5->list(c),dict(c),set(c)
+6->sum(c.values())
 '''
 from collections import Counter
 l=[1,2,3,4,5,6,1,2,3,4,3,2,3,4,5,6,7,8,89,9,0,8,7,6,5,4,4,2,34,5,6]
