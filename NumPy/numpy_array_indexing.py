@@ -44,3 +44,13 @@ print('\n')
 print(arr_2d[1:,1:])
 print('\n')
 print(arr_2d[1:,:2])
+
+#-------------------------------------------------------#
+print('\n\n\n\n')
+#Conditional array
+
+# bool_arr=arr>20
+# print(bool_arr)
+# print(arr[bool_arr])
+print(arr)
+print("Array having more than 20",arr[arr>20])
