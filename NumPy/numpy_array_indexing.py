@@ -45,6 +45,11 @@ print(arr_2d[1:,1:])
 print('\n')
 print(arr_2d[1:,:2])
 
+#----------------------------------------------------------#
+#Transpose of matrix
+t_mat=arr_2d.T
+print('Transpose Matrix\n',t_mat)
+
 #-------------------------------------------------------#
 print('\n\n\n\n')
 #Conditional array
@@ -54,3 +59,5 @@ print('\n\n\n\n')
 # print(arr[bool_arr])
 print(arr)
 print("Array having more than 20",arr[arr>20])
+
+
