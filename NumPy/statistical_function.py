@@ -16,7 +16,7 @@ print("Min element of array",arr.min(),np.min(arr))
 print('\n')
 
 #-------------------------------------------------------#
-#Matrix
+#Matrix`
 arr_2d=np.arange(1,26).reshape(5,5)
 print('MAtrix is\n',arr_2d)
 
