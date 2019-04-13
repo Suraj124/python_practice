@@ -50,6 +50,12 @@ print(arr_2d[1:,:2])
 t_mat=arr_2d.T
 print('Transpose Matrix\n',t_mat)
 
+#----------------------------------------------------------#
+#Inverse of matrix
+mat_inv=np.linalg.inv(arr_2d)
+print('Inverse of Matrix\n',mat_inv)
+print(mat_inv.dot(arr_2d))
+
 #-------------------------------------------------------#
 print('\n\n\n\n')
 #Conditional array
