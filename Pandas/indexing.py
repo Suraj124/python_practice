@@ -30,7 +30,7 @@ print(DF.sort_values(by='Name', ascending=False)) #inplace=False
 print(DF.sort_values(by='Name', ascending=True)) #inplace=False
 
 #drop()
-print('\n')]
+print('\n')
     
 print('Droping Num columns')
 print(DF.drop(['Num'],axis=1)) #inplace=False
