@@ -21,5 +21,5 @@ print(lst)
 lst.sort(reverse=True)
 print(lst)
 
-#count()
+#count()--> frequency of element
 print(lst.count(333))

@@ -3,6 +3,7 @@ print(type(lst))
 
 b=bytes(lst)        
 print(type(b))
+print(b)
 # b[2]=22   we can't change values in bytes
 
 b1=bytearray(lst)

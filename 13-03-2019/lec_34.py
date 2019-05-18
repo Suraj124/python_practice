@@ -1,15 +1,15 @@
 dic1={1:"Jhon",2:"Bob",3:"William"}
 print(dic1)
 ########################################################
-# key=dic1.keys()
-# # print(type(key))
-# for i in key:
-#     print(i)
+key=dic1.keys()
+# print(type(key))
+for i in key:
+    print(i)
 
-# value=dic1.values()
-# # print(type(value))
-# for i in value:
-#     print(i)
+value=dic1.values()
+# print(type(value))
+for i in value:
+    print(i)
 ###########################################################
 # print(dic1[2])      #we can access dictionary directly
 
@@ -17,18 +17,18 @@ print(dic1)
 
 # print(dic1)
 #####################################################
-# for i,j in dic1.items():
-#     print(i,j)
+for i,j in dic1.items():
+    print(i,j)
 
-# if "Jhon" in dic1.values():
-#     print("Yes")
-# else:
-#     print("NO")
+if "Jhon" in dic1.values():
+    print("Yes")
+else:
+    print("NO")
 
-# if "Suraj" in dic1.values():
-#     print("No")
-# else:
-#     print("No")
+if "Suraj" in dic1.values():
+    print("No")
+else:
+    print("No")
 
 ################################################  Adding new item to dictionary    ###########################################
 
