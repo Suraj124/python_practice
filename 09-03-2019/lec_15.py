@@ -1,4 +1,3 @@
-#complex value
 c=2+6j
 print(c)
 print(type(c))
